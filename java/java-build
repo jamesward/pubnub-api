@@ -1,7 +1,0 @@
-#!/bin/bash
-
-echo -e "Building..."
-javac -cp src/:. -Xlint:deprecation PubnubTest.java
-
-echo -e "Running:"
-java -cp src/:. PubnubTest
